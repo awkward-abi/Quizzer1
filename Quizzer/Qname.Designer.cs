@@ -162,6 +162,7 @@
             this.Name = "Questionnaire";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Qname";
+            this.Load += new System.EventHandler(this.Questionnaire_Load);
             ((System.ComponentModel.ISupportInitialize)(this.profile)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

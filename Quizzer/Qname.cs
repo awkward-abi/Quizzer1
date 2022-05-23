@@ -15,7 +15,7 @@ namespace Quizzer
     {
 
 
-        SqlConnection CString = new SqlConnection(@"Data Source=DESKTOP-LARGHOE\SQLEXPRESS;Initial Catalog=quizzer;Integrated Security=True");
+        SqlConnection CString = new SqlConnection(@"Data Source=DESKTOP-LARUPAY\SQLEXPRESS1;Initial Catalog=quizzerDB;Integrated Security=True");
         public Questionnaire()
         {
             InitializeComponent();
@@ -196,6 +196,11 @@ namespace Quizzer
 
             firstPage.Show();
             
+        }
+
+        private void Questionnaire_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

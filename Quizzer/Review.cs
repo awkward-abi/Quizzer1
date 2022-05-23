@@ -14,8 +14,6 @@ namespace Quizzer
     public partial class Review : Form
     {
 
-        
-
         public Review()
         {
             InitializeComponent();
@@ -24,13 +22,13 @@ namespace Quizzer
 
         private void Review_Load(object sender, EventArgs e)
         {
-            SqlConnection CString = new SqlConnection(@"Data Source=DESKTOP-LARGHOE\SQLEXPRESS;Initial Catalog=quizzer;Integrated Security=True");
+            SqlConnection CString = new SqlConnection(@"Data Source=DESKTOP-LARUPAY\SQLEXPRESS1;Initial Catalog=quizzerDB;Integrated Security=True");
             try
             {
-                
-
                 CString.Open();
 
+                //Testtttt
+                //Test
                 cmbQnames.Items.Add("ss"); 
 
                 //SqlCommand cmd = new SqlCommand("SELECT QNAME FROM QUESTIONNAIRE WHERE" , CString);
